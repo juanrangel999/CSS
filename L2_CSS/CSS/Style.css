@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(240, 227, 227);
+}
+
+main {
+  margin: 50px 30px;
+  padding: 5px;
+  border-radius: 10px;
+  background: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { 
+  color: gray;
+}
+
+a:visited { 
+  color: red;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  color: violet;
+  outline: solid;
+
+}
+
+a:active {
+  color: green;
+}
+
+.todo-list {
+  list-style: none;
+}
