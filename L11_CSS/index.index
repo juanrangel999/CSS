@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Article</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+<main class="newspaper">
+  <h1 class="name">Noticias Maracay</h1>
+  <p class="date">25/09/2026</p>
+  <h2 class="headline">Playas choroni</h2>
+  <h3 class="sub-headline">Turismo en el pueblo</h3>
+  <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim</p>
+  <p class="text">Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+
+  <p class="author">Juan B. Rangel M.</p>
+
+  </main>
+  </body>
+</html>
