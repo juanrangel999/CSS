@@ -1,0 +1,38 @@
+main {
+  background: beige;
+  border-radius: 10px;
+  padding:2rem auto;
+  margin:0.5rem;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding:20rem auto;
+  margin:0.5rem auto;
+}
+
+#image {
+width: 70%;
+height: 50%;
+border-radius: 10px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+section{
+  margin:-1.5rem auto 1.5rem;
+  padding:1.25rem;
+}
+
+section > p {
+  text-indent: 30px;
+  text-align: justify;
+}
+
+
