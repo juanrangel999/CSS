@@ -1,0 +1,62 @@
+td {
+margin:auto 5px;
+width:15vw;
+padding:5px 50px;
+}
+
+tr[class="read"]{
+  background-image:linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+tr[class="to-read"]{
+background-image:linear-gradient(to bottom, rgb(56, 217, 163), rgba(0, 0, 255, 0.5));
+}
+
+tr[class="in-progress"]{
+background-image:linear-gradient(to bottom, rgba(186, 126, 217, 0.66), rgba(214, 31, 68, 0.659));
+}
+span{
+  display:inline-block;
+}
+
+tr[class="to-read"] span[class="status"]  {
+border: 1px solid #893c3c;
+background-image:linear-gradient(to bottom, rgba(186, 126, 217, 0.66), rgba(13, 237, 17, 0.659));
+}
+
+tr[class="read"] span[class="status"]  {
+border: 1px solid #893c3c;
+background-image:linear-gradient(to bottom, rgba(186, 126, 217, 0.66), rgba(235, 40, 17, 0.659));
+}
+
+tr[class="in-progress"] span[class="status"]  {
+border: 1px solid #893c3c;
+background-image:linear-gradient(to bottom, rgba(186, 126, 217, 0.66), rgba(84, 84, 199, 0.659));
+}
+
+span[class="status"], span[class^="rate"]{
+  height:5vh;
+  width:15vw;
+  padding:5px;
+}
+
+span[class^="rate"] > span
+{
+  border: 1px solid #893c3c;
+  border-radius:5px;
+  margin:2px;
+  height:5vh;
+  width:2vw;
+  background-color:rgb(255, 215, 0);
+}
+
+span[class~="one"] span:nth-child(1) {
+  background-image:linear-gradient(white, black);
+}
+
+span[class~="two"] span:nth-child(-n+2) {
+  background-image:linear-gradient(white, black);
+}
+span[class~="three"] span {
+  background-image:linear-gradient(white, black);
+}
