@@ -1,0 +1,68 @@
+:root {
+  --color0:#A2B9B9;
+  --color1:#E7FEFA;
+  --color2:#8FFAEA;
+  --color3:#27F5D6;
+  --color4:#09C8AB;
+  --color5:#079C86;
+  --solid-border:#1F2929;--dashed-border:#465D5D;
+}
+.available-0{
+  background-color: var(--color0);
+}
+
+
+.available-1{
+  background-color: var(--color1);
+  
+}
+
+.available-2{
+  background-color: var(--color2);
+}
+
+.available-3{
+  background-color: var(--color3);
+}
+
+.available-4{
+  background-color: var(--color4);
+}
+
+.available-5{
+  background-color: var(--color5);
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td{
+  border-bottom: var(--dashed-border);
+}
+
+#legend{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+
+}
+
+#legend-gradient{
+  margin:0.5rem;
+  padding:1.5rem;
+  width: 10%;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(
+    to left,
+    var(--color0) 0%,   var(--color0) 17%,
+  var(--color1) 17%, var(--color1) 33%,
+  var(--color2) 33%, var(--color2) 50%,
+  var(--color3) 50%, var(--color3) 67%,
+  var(--color4) 67%, var(--color4) 83%,
+  var(--color5) 83%, var(--color5) 100%
+);
+}
